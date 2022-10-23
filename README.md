@@ -11,10 +11,12 @@
 
 `truffle compile`
 
-4. To deploy the smart contracts I created 2_hello_world_migration.js in the migrations folder. Using the following command, deployed the smart contracts
+4. Before deploying, created an account on Chainstack, created a public chain project and configured a Ethereum Goerli Testnode. Added the Execution client HTTPS endpoint to truffle-config.js
 
-`truffle migrate`
+5. To deploy the smart contracts I created 2_hello_world_migration.js in the migrations folder. Using the following command, deployed the smart contracts
 
-5. Wrote test cases to check the smart contracts
+`truffle migrate --network goerli`
+
+6. Wrote test cases to check the smart contracts
 
 
